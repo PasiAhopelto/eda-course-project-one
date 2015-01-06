@@ -41,6 +41,6 @@ lines(subMeterings$timestamp, subMeterings$Sub_metering_3, col = "blue")
 legend('topright', c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty=1, col = c('black', 'red', 'blue'), bty = "n")
 
 # Global reactive power
-plot(globalReactivePowers$timestamp, globalReactivePowers$Global_reactive_power, type = 'l', ylab = 'Global Reactive Power', xlab = 'datetime')
+plot(globalReactivePowers$timestamp, globalReactivePowers$Global_reactive_power, type = 'l', ylab = 'Global_reactive_power', xlab = 'datetime')
 
 dev.off() 
